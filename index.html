@@ -16,7 +16,7 @@
         <form id="ticketForm">
             <div class="mb-3">
                 <label for="tripLenghtKm" class="form-label">Lunghezza percorso (km)</label>
-                <input type="number" class="form-control" id="tripLenghtKm" aria-describedby="tripLenghtHelp">
+                <input type="number" step="0.01" class="form-control" id="tripLenghtKm" aria-describedby="tripLenghtHelp">
                 <div id="tripLenghtHelp" class="form-text">Scrivi in KM la lunghezza del percorso.</div>
             </div>
             <div class="mb-3">
@@ -28,6 +28,7 @@
         </form>
     </div>
 
+<ul class="list-group" id="ticketData"></ul>
 
     <!-- Optional JavaScript; choose one of the two! -->
 
